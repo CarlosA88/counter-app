@@ -2,12 +2,10 @@ import React, { Component } from "react";
 
 const UpdatedComponent = OriginalComponent => {
   class NewComponent extends Component {
-    constructor(props) {
-      super(props);
-      this.state = {
-        count: 0
-      };
-    }
+    state = {
+      count: 0
+    };
+
     handlerCounter = () => {
       this.setState(prevState => {
         return { count: prevState.count + 1 };
@@ -21,7 +19,6 @@ const UpdatedComponent = OriginalComponent => {
           <OriginalComponent
             count={count}
             handlerCounter={this.handlerCounter}
-         
           />
         </div>
       );
