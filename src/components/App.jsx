@@ -4,16 +4,16 @@ import "./App.css";
 
 import Home from "./home/Home";
 import Navbar from "./layout/Navbar";
-import index from "./counter";
+import Favs from "./favs/Favs";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Navbar />
       <div className="container">
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/counter" component={index} />
+          <Route path="/favs" component={Favs} />
         </Switch>
       </div>
     </div>

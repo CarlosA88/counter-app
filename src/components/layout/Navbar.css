@@ -1,0 +1,18 @@
+.myButton {
+  /* margin-top: 0.5em;
+  background-color: white;
+  display: inline-block;
+  cursor: pointer;
+  color:purple;
+  font-size: 36px;
+  padding: 6px 13px;
+  text-shadow: white; */
+}
+.myButton:hover {
+  /* background-color: black;
+  color:white; */
+}
+.myButton:active {
+  /* position: relative;
+  top: 1px; */
+}
